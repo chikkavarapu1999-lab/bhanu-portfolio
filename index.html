@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bhanu Sai Prakash Chikkavarapu — Portfolio</title>
+  <meta name="description" content="Mechanical Engineer — CAD, DFM/DFA, FEA, Additive Manufacturing. Project portfolio, experience, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: light; }
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+    :root { --accent: #fbbf24; }
+    .accent { color: var(--accent); }
+    .bg-accent { background: var(--accent); }
+    .btn { display:inline-flex;align-items:center;gap:.5rem;font-weight:700;border:2px solid #111827;box-shadow:4px 4px 0 #111827; border-radius:0.75rem;padding:.6rem 1rem;transition:transform .15s ease, box-shadow .15s ease; }
+    .btn:hover{transform:translate(-1px,-1px);box-shadow:6px 6px 0 #111827}
+    .btn-ghost{background:transparent}
+    .btn-accent{background:var(--accent)}
+    .outline-box{border:3px solid #111827; box-shadow:10px 10px 0 #111827;}
+    .link { position: relative; }
+    .link::after { content: ""; position: absolute; left: 0; bottom: -2px; width: 100%; height: 2px; background: currentColor; opacity: .25; transition: opacity .2s ease; }
+    .link:hover::after { opacity: .6; }
+    .card { transition: transform .15s ease, box-shadow .15s ease; }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,.08); }
+  </style>
+</head>
+<body class="bg-white text-slate-800">
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2 font-extrabold tracking-tight text-lg">
+        <span class="w-8 h-8 rounded-full bg-black text-white grid place-items-center">B</span>
+        <span>Bhanu</span>
+      </a>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="#home" class="opacity-80 hover:opacity-100">Home</a>
+        <a href="#about" class="opacity-80 hover:opacity-100">About</a>
+        <a href="#skills" class="opacity-80 hover:opacity-100">Skills</a>
+        <a href="#experience" class="opacity-80 hover:opacity-100">Experience</a>
+        <a href="#projects" class="opacity-80 hover:opacity-100">Projects</a>
+        <a href="#contact" class="opacity-80 hover:opacity-100">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="btn btn-accent">Contact Now
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="relative">
+    <div class="max-w-6xl mx-auto px-4 pt-12 pb-12 grid lg:grid-cols-2 gap-8 items-center">
+      <div class="relative">
+        <div class="absolute -left-6 -top-6 w-11/12 h-[260px] border-2 border-slate-300"></div>
+        <div class="relative bg-white outline-box rounded-xl p-6">
+          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">Hi! I’m Bhanu — <span class="accent">Mechanical Engineer</span></h1>
+          <p class="mt-4 text-slate-700">Curious by nature, who loves learning how things work — and making them better.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="./Resume.pdf" download class="btn btn-accent">Resume Download
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </a>
+            <a href="./Project_Portfolio.pdf" download class="btn btn-ghost">Portfolio PDF</a>
+          </div>
+        </div>
+      </div>
+      <div class="relative flex justify-center items-center">
+        <div class="rounded-full outline-box p-2 bg-accent/80 w-56 h-56 flex justify-center items-center overflow-hidden">
+          <img src="https://i.postimg.cc/jq8Qhx6L/Untitled-design.png" alt="Bhanu portrait" class="rounded-full object-cover w-52 h-52 border-4 border-white shadow-lg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-12 border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div class="md:col-span-1">
+        <h2 class="text-2xl font-extrabold tracking-tight">About</h2>
+      </div>
+      <div class="md:col-span-2 text-slate-700 leading-relaxed">
+        <p>4+ years experience in product design and R&D — passionate about manufacturable, assembly-friendly designs, robust test setups, and visual storytelling through product animations.</p>
+        <p class="mt-3">Highlights: compact ozone test train (↑ accuracy), 1000 CFM multistage filter (↓ size/weight, ↑ lifetime), automated conveyor for alignment, hydraulic die-punch system, multipurpose farming machine, and    80 CC hybrid motorized bicycle</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-extrabold tracking-tight">Skills</h2>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+        <div class="p-4 rounded-xl bg-white border border-slate-200">
+          <div class="font-semibold">CAD & Design</div>
+          <div class="mt-2 opacity-80">DFM/DFA, GD&T, NPD / EPD</div>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-slate-200">
+          <div class="font-semibold">Analysis</div>
+          <div class="mt-2 opacity-80">FEA, CFD, Material Optimization, Root Cause Analysis</div>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-slate-200">
+          <div class="font-semibold">Manufacturing</div>
+          <div class="mt-2 opacity-80">CNC Machining, Additive Manufacturing, Sheet Metal</div>
+        </div>
+        <div class="p-4 rounded-xl bg-white border border-slate-200">
+          <div class="font-semibold">Software</div>
+          <div class="mt-2 opacity-80">Ansys, SolidWorks, CATIA, Blender, MATLAB, Arduino/DAQ</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-12 bg-slate-50 border-y border-slate-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-extrabold tracking-tight">Experience</h2>
+      <div class="mt-6 space-y-6">
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h3 class="text-lg font-semibold">Graduate Research Assistant — Northern Illinois University</h3>
+            <span class="text-sm opacity-70">Aug 2024 – Present</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-slate-700 text-sm leading-relaxed">
+            <li>Built a compact, modular ozone test setup; improved leak tightness and accuracy by ~15%.</li>
+            <li>Evaluated ozone removal filters at low temperature/humidity; integrated DAQ for real‑time data.</li>
+            <li>Developed multi‑stage filtration and flipping mechanisms for long‑term efficiency studies.</li>
+          </ul>
+        </article>
+
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h3 class="text-lg font-semibold">Mechanical Engineer Intern — APSCO, Inc.</h3>
+            <span class="text-sm opacity-70">Jun – Aug 2025</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-slate-700 text-sm leading-relaxed">
+            <li>Designed a destructive inlet air filter system; took design from concept to prototype.</li>
+            <li>Cut size by 27% and extended service lifetime by 15× with staged filtration.</li>
+            <li>Led prototype test plans and equipment selection for validation.</li>
+          </ul>
+        </article>
+
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h3 class="text-lg font-semibold">Mechanical Design Engineer — Design Cube Engineering Solutions</h3>
+            <span class="text-sm opacity-70">Jul 2021 – Aug 2024</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-slate-700 text-sm leading-relaxed">
+            <li>Designed hydraulic reservoirs with integrated cooling/filtration for bulk feed trailers.</li>
+            <li>Optimized manifolds, reducing hoses/leak paths; cut part count & weight by 15–20%.</li>
+            <li>Performed FEA to save 10–17% material; created 3D/2D CAD, drawings, and BOMs.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex flex-wrap items-end justify-between gap-3">
+        <h2 class="text-2xl font-extrabold tracking-tight">Projects</h2>
+        <a class="text-sm link" href="./Project_Portfolio.pdf" download>Download full portfolio</a>
+      </div>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <!-- 1) Compact Ozone Test Train -->
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <h3 class="font-semibold">Compact Ozone Test Train</h3>
+          <img src="./images/compact-ozone-test-train.png" class="rounded-lg mt-3 w-full h-48 object-contain border border-slate-200 bg-slate-50" alt="Compact Ozone Test Train">
+          <p class="mt-3 text-sm opacity-80"> Evaluating ozone filters, modular packed‑bed with O‑ring seals, custom pressure/flow measurement, DAQ integration.</p>
+          <ul class="mt-3 text-sm list-disc pl-5 opacity-90">
+            <li>↑ measurement accuracy ~25%</li>
+            <li>Leak‑proof, compact, serviceable</li>
+            <li>Polypropylene for ozone resistance</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Materials</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Arduino/DAQ</span>
+          </div>
+        </article>
+
+        <!-- 2) Multistage Inlet Air Filter -->
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <h3 class="font-semibold">Multistage Inlet Air Filter (1000 CFM)</h3>
+          <img src="./images/multistage-inlet-air-filter.png" class="rounded-lg mt-3 w-full h-48 object-contain border border-slate-200 bg-slate-50" alt="Multistage Inlet Air Filter">
+          <p class="mt-3 text-sm opacity-80"> Heavy dust filtration, Cyclonic pre‑cleaner + panel filter, sheet‑metal design for easy top‑side service.</p>
+          <ul class="mt-3 text-sm list-disc pl-5 opacity-90">
+            <li>↓ size & weight 35%</li>
+            <li>↑ service lifetime 15×</li>
+            <li>70% dust removed pre‑filter</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">SolidWorks</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Sheet Metal</span>
+          </div>
+        </article>
+
+        <!-- 3) Smart Conveyor: Orientation & Alignment -->
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <h3 class="font-semibold">Smart Conveyor: Orientation & Alignment</h3>
+          <img src="./images/smart-conveyor-system.png" class="rounded-lg mt-3 w-full h-48 object-contain border border-slate-200" alt="Smart Conveyor">
+          <p class="mt-3 text-sm opacity-80">Flipping mechanism and adjustable alignment holder for U‑shaped parts</p>
+          <a href="https://drive.google.com/file/d/1HEdsJgJVp1pI0zesOlh7Ajpdqsfg4L1v/view?usp=drive_link" target="_blank" rel="noopener" class="btn btn-accent mt-3">🎬 Watch Video</a>
+          <ul class="mt-3 text-sm list-disc pl-5 opacity-90">
+            <li>↑ orientation accuracy, ↓ manual handling</li>
+            <li>Serviceable with off‑the‑shelf parts</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">AC Gear Motor</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Automation</span>
+          </div>
+        </article>
+
+        <!-- 4) Hydraulic Die‑Punch Machine -->
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <h3 class="font-semibold">Hydraulic Die‑Punch Machine</h3>
+          <img src="./images/die-punch.png" class="rounded-lg mt-3 w-full h-48 object-contain border border-slate-200" alt="Die Punch">
+          <p class="mt-3 text-sm opacity-80">Precision die & punch for aluminum sheets; 4″ hydraulic actuator (5″ stroke, 12,500 lb at 1,000 psi).</p>
+          <ul class="mt-3 text-sm list-disc pl-5 opacity-90">
+            <li>Clean edge quality; 16 parts/min</li>
+            <li>Rigid frame, quick service</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Machine Design</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Hydraulics</span>
+          </div>
+        </article>
+
+        <!-- 5) 80CC Motorized Bicycle -->
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <h3 class="font-semibold">80CC Motorized Bicycle</h3>
+          <img src="./images/80cc-motorized-bicycle.jpg" class="rounded-lg mt-3 w-full h-48 object-cover border border-slate-200" alt="80CC Bicycle">
+          <p class="mt-3 text-sm opacity-80">Hybrid pedal/engine drive with 10–44 gear ratio for hill climbs; vibration‑isolating clamps.</p>
+          <a href="https://drive.google.com/file/d/1eVFWzx_UEfjhUnWS0xS0ycYpUdatlFzv/view?usp=drive_link" target="_blank" rel="noopener" class="btn btn-accent mt-3">🎬 Watch Video</a>
+          <ul class="mt-3 text-sm list-disc pl-5 opacity-90">
+            <li>Fuel efficiency ~55 km/L</li>
+            <li>Extended range and terrain capability</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Powertrain</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Fabrication</span>
+          </div>
+        </article>
+
+        <!-- 6) Multipurpose Farming Machine -->
+        <article class="p-5 rounded-xl bg-white border border-slate-200 card">
+          <h3 class="font-semibold">Multipurpose Farming Machine</h3>
+          <img src="./images/multipurpose-farming-machine.jpg" class="rounded-lg mt-3 w-full h-48 object-cover border border-slate-200" alt="Farming Machine">
+          <p class="mt-3 text-sm opacity-80">Modular 750W electric tool carrier for ploughing, weeding, spraying; quick‑swap attachments.</p>
+          <a href="https://drive.google.com/file/d/18afYLVh4EDTSdsnIEWiuZBE43VY_7d0e/view?usp=drive_link" target="_blank" rel="noopener" class="btn btn-accent mt-3">🎬 Watch Video</a>
+          <ul class="mt-3 text-sm list-disc pl-5 opacity-90">
+            <li>~8 hrs per charge</li>
+            <li>Compact, corrosion‑resistant frame</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Design, FEA</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-100">Electromechanical</span>
+          </div>
+        </article>
+      </div>
+
+  </section>
+  <section id="contact" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-extrabold tracking-tight">Contact</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="p-6 rounded-xl bg-white border border-slate-200">
+          <form class="space-y-3" onsubmit="event.preventDefault(); window.location.href = 'mailto:chikkavarapu1999@gmail.com?subject=' + encodeURIComponent(document.getElementById('subj').value) + '&body=' + encodeURIComponent(document.getElementById('msg').value);">
+            <label class="block text-sm font-medium">Subject
+              <input id="subj" class="mt-1 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2" placeholder="Let’s talk about…" required>
+            </label>
+            <label class="block text-sm font-medium">Message
+              <textarea id="msg" rows="5" class="mt-1 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2" placeholder="Hi Bhanu, I’m reaching out about…" required></textarea>
+            </label>
+            <button type="submit" class="rounded-xl px-4 py-2.5 text-sm font-semibold bg-indigo-600 text-white hover:bg-indigo-500 card">Send Email</button>
+          </form>
+        </div>
+        <div class="p-6 rounded-xl bg-white border border-slate-200">
+          <div class="text-sm opacity-80">Prefer a quick click?</div>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li><a class="link" href="mailto:chikkavarapu1999@gmail.com">Email: chikkavarapu1999@gmail.com</a></li>
+            <li><a class="link" href="https://www.linkedin.com/in/bhanu-chikkavarapu/" target="_blank" rel="noopener">LinkedIn: /bhanu-chikkavarapu</a></li>
+            <li>Phone: (815) 909‑1864</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 text-center text-sm opacity-70">
+    <div class="max-w-6xl mx-auto px-4">© <span id="year"></span> Bhanu Sai Prakash Chikkavarapu</div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
